@@ -23,4 +23,4 @@ steps:
   displayName: 'Use PHP version $(phpVersion)'
 - task: CmdLine@2
   inputs:
-    script: composer install --no-interaction --prefer-dist
+    script: composer install --no-interaction --working-dir='$(system.defaultWorkingDirectory)'
