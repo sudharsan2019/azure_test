@@ -1,0 +1,300 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+    font-size: 0.875rem !important;
+    font-weight: 400 !important;
+    line-height: 1.5 !important;
+    color: #383e4b !important;
+    text-align: left !important;
+    background-color: #f5f5f5 !important;
+}
+.font17
+{
+  font-size: 17px;
+}
+.display_table
+{
+  display: table;
+}
+.line_height30
+{
+  line-height: 30px;
+}
+.width100_perc {
+  width: 100%!important;
+}
+.width50_perc {
+  width: 50%;
+}
+.width45_perc {
+  width: 45%;
+}
+.width5_perc {
+  width: 5%;
+}
+.width11_perc {
+  width: 11%;
+}
+.width9_perc {
+  width: 9%;
+}
+.width10_perc {
+  width: 10%;
+}
+
+.margin_auto
+{
+  margin:0 auto;
+}
+.m0 {
+  margin: 0;
+}
+.mt5 {
+  margin-top: 5px;
+}
+.mt7 {
+  margin-top: 7px;
+}
+.mt4 {
+  margin-top: 4px;
+}
+.mt10{
+   margin-top: 10px;
+}
+.mt30{
+   margin-top: 30px;
+}
+.mt44{
+   margin-top: 44px;
+}
+.mb0 {
+  margin-bottom: 0;
+}
+.mb10 {
+  margin-bottom: 10px;
+}
+.mb20 {
+  margin-bottom: 20px!important;
+}
+.mb34 {
+  margin-bottom: 34px!important;
+}
+.mb44 {
+  margin-bottom: 44px!important;
+}
+.mt0 {
+  margin-top: 0 !important;
+}
+.mt12 {
+  margin-top: 12px;
+}
+.mt20 {
+  margin-top: 20px;
+}
+.ml15 {
+  margin-left: 15px;
+}
+.mr8 {
+  margin-right: 8px;
+}
+.ml20 {
+  margin-left: 20px;
+}
+.ml10 {
+  margin-left: 10px;
+}
+.mr8 {
+  margin-right: 8px;
+}
+.mr10 {
+  margin-right: 10px;
+}
+.mr20 {
+  margin-right: 20px;
+}
+.mb22 {
+  margin-bottom: 22px;
+}
+.mb15 {
+  margin-bottom: 10px;
+}
+.float_right
+{
+  float:right;
+}
+.float_none
+{
+  float: none;
+}
+
+.p0 {
+    padding: 0!important;
+}
+.pt0 {
+    padding-top: 0 !important;
+}
+.p15 {
+    padding: 15px!important;
+}
+.pl15 {
+  padding-left: 15px;
+}
+.pr0 {
+  padding-right: 0px !important;
+}
+.p5 {
+  padding: 5px;
+}
+.p10 {
+  padding: 10px!important;
+}
+.p12 {
+  padding: 12px;
+}
+.pl45 {
+  padding-left: 45px;
+}
+.pl10 {
+  padding-left: 10px;
+}
+.pl20 {
+  padding-left: 20px;
+}
+.pl0 {
+  padding-left: 0!important;
+}
+.pr4 {
+  padding-right: 4px !important;
+}
+.pt4 {
+  padding-top: 4px !important;
+}
+.pt6 {
+  padding-top: 6px !important;
+}
+.pt7 {
+  padding-top: 7px !important;
+}
+.pl8 {
+  padding-left: 8px !important;
+}
+.pt40{
+  padding-top: 40px;
+}
+.pt50{
+  padding-top: 50px;
+}
+
+.width50_perc {
+  width: 50%;
+}
+.text_center{
+  text-align: center;
+}
+.blue_left_border
+{
+  border-left: 3px solid #0088cc;
+}
+.batch_bg_green
+{
+  background: #00a65a !important;
+}
+.theme_border_radius
+{
+  border-radius: 5px 5px 0 0;
+}
+.themeHead_color:hover
+{
+  background-color: #1a9ca9!important;
+}
+.table_head_bg
+{
+  background: #3f5d7d!important;
+}
+.table_head_bg th
+{
+  color: #fff!important;
+}
+.successPopup
+{
+      background: rgb(0,0,9,0.7);
+      z-index: 99999;
+}
+.errorPopup
+{
+      background: rgb(0,0,9,0.7);
+      z-index: 99999;
+}
+.warningPopup
+{
+      background: rgb(0,0,9,0.7);
+      z-index: 99999;
+}
+.modal-backdrop.show
+{
+  display: none!important;
+}
+.visibility_hidden
+{
+  visibility:hidden;
+}
+.font13
+{
+  font-size: 13px!important;
+}
+.top_thick_border
+{
+  border-top:3px solid #d2d6de!important;
+}
+.modal.fade
+{
+  z-index: 99999;
+  background: rgb(0, 0, 9, 0.7);
+}
+.font21
+{
+  font-size: 21px;
+}
+.txtBold{
+  font-weight: bold;
+}
+
+.log_btn_design {
+    margin: -8px 0 0 0;
+}
+
+.primary_log_details_section {
+    position: absolute;
+    z-index: 99;
+    margin: -3px 0 0 0;
+}
+
+.primary_log_details_header_section_design {
+    font-size: 17px;
+    padding: 5px 10px;
+    font-weight: bold;
+    background: #67c2ef;
+    color: #fff;
+}
+
+.primary_log_details_remove_btn_design {
+    color: #ff5454;
+    cursor: pointer;
+}
+
+.padding_11 {
+    padding: 11px;
+}
+
+.text_bold {
+    font-weight: bold;
+}
+
+.isonotes_btn_design {
+    margin: 0 0 0 6px;
+}
+
+.isonotes_img_design {
+    width: 31px;
+    margin: -6px 0 0 -8px;
+}

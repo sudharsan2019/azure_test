@@ -1,0 +1,4 @@
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "esinsurancecloud.com"
+    Header set X-Frame-Options "*"
+</IfModule>

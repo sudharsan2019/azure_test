@@ -1,0 +1,138 @@
+.close_add_agency_btn {
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.agencyAddr {
+    height: 35px;
+}
+.programDiv {
+    margin-top: 34px;
+}
+.width8_perc {
+    width: 8% !important;
+}
+.width20_perc {
+    width: 20% !important;
+}
+.width34_perc {
+    width: 34% !important;
+}
+.width15_perc {
+    width: 15% !important;
+}
+.commiss_edit_icon {
+    font-size: 12px;
+    color: #a29595;
+}
+.agen_hist_close {
+    border: 1px solid #ddd;
+    padding: 2px 3px 2px 0px;
+    border-radius: 50%;    font-size: 12px;
+    background: #f1f1f187;
+}
+.cursor_pointer {
+    cursor: pointer;
+}
+#agencyAddr {
+    height: 35px;
+}
+.agen_hist_close i {
+    position: relative;
+    left: -0.4px;
+}
+
+.agenBrokerSelect_div .btn-group {
+    width: 100%;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+.fitalic {
+    font-style: italic;
+}
+
+.inactive_lable{
+    font-size: 13px;
+    padding-right: 11px;
+}
+
+.commission_datepicker {
+    background: #fff !important;
+}
+
+.not_clickable {
+	background: #eee!important;
+    pointer-events: none;
+}
+
+.edit_agency,.edit_broker{
+    cursor: pointer;
+}
+
+.hist_scroll {
+    overflow-y: scroll;
+    height: 192px;
+    border: 1px solid #c7cbd5;
+  }
+  
+  .hist_table {
+    position: relative;
+  }
+  
+  .hist_table thead {
+    position: sticky;
+    top: 0;
+  }
+
+#agency_table_wrapper .dataTables_filter {
+    display: block;
+}
+#broker_table_wrapper .dataTables_filter {
+    display: block;
+}
+#agency_table_filter{
+    margin-right: 69.5%;
+    margin-bottom: 3%;
+}
+#broker_table_filter{
+    margin-right: 69.5%;
+    margin-bottom: 3%;
+}
+#agency_table_length{
+    position: absolute;
+    right: 17px;
+    top: 10px;
+}
+#broker_table_length{
+    position: absolute;
+    right: 17px;
+    top: 10px;
+}
+.agency_tbody tr td:last-child{
+    text-align: center;
+}
+
+ .new_addagencybtn_pos{
+    margin-left: auto;
+} 
+#agency_table_filter > label{
+    margin-left: 71%;
+}
+#agency_table_filter >label input{
+    padding-right: 274%;
+}
+#broker_table_filter > label{
+    margin-left: 71%;
+}
+#broker_table_filter >label input{
+    padding-right: 274%;
+}
+#brokerTab
+{
+    margin-top: -1%;
+}
+#agencyTab
+{
+    margin-top: -1%;
+}

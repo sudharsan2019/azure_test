@@ -1,0 +1,92 @@
+/*Endorsement*/
+.endorsementSection fieldset.scheduler-border, .cancellationSection fieldset.scheduler-border {
+    border: 1px solid #ddd6d6 !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+}
+
+.endorsementSection legend.scheduler-border, .cancellationSection legend.scheduler-border, .endorse_doc_sec legend.scheduler-border {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    text-align: left !important;
+    width: auto;
+    padding: 3px 18px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #007bff;
+    color: #fff;
+}
+
+.endorse_doc_sec legend.scheduler-border {
+    border:unset;
+}
+
+.display_initial {
+    display: initial !important;
+}
+
+#endorsementDate .input-group-addon, #cancellationDate .input-group-addon, #reinstatementDate .input-group-addon, #audit_date .input-group-addon {
+    background: rgb(54, 169, 225);
+    text-align: center;
+    line-height: 33px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#endorse_wording {
+    height: 180px;
+    overflow-y: scroll;
+}
+
+#cancel_method_flat, #cancel_method_shortrate, #cancel_method_prorate {
+    cursor: pointer;
+}
+
+.top_endor_discard_btn_sec {
+    position:relative
+}
+
+.top_endorseDiscardBtn {
+    position: absolute;
+    right: 35px;
+    z-index: 9;
+}
+
+.text_underline {
+    text-decoration: underline !important; 
+}
+
+span.endorseDocDownload, span.reinstateDocDownload, .audit_DocDownload {
+    position: relative;
+    top: 7px;
+    left: 11px;
+}
+
+.endorse_doc_sec, .reinstate_doc_sec {
+    padding-bottom: 29px;
+    padding-top:10px;
+    float: left;
+}
+
+.endorsementSection .date .input-group-addon {
+    padding: initial;
+}
+
+.endorse_num_list {
+    height: 29px !important;
+    padding-top: 3px !important;
+}
+
+.pv_change_reason {
+    position: relative;
+    top: 3px;
+    font-weight: 500;
+}
+
+.endorse_rhs {
+    /*background: #7da9be;*/
+    background: #F0F0F0;
+    width: 98%;
+}

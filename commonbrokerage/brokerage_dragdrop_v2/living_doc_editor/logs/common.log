@@ -1,0 +1,32 @@
+getVirtualPath virtPath: CICD_STORAGE_URL/brokerage/brokerage_dragdrop_v2/living_doc_editor/../v4uploads/documents_filesystem/2/
+getVirtualPath virtPath: http://localhost/../v4uploads/documents_filesystem/2/
+getVirtualPath virtPath: http://localhost/../v4uploads/documents_filesystem/2/
+getStoragePath result: C:\Bitnami\wampstack-7.2.11-1\apache2\htdocs\brokerage\brokerage_dragdrop_v2\living_doc_editor\..\v4uploads\documents_filesystem/2/2__Q1_V1_60edc6a5db7e8_963370_1626195621.docx\\
+getStoragePath result: C:\Bitnami\wampstack-7.2.11-1\apache2\htdocs\brokerage\brokerage_dragdrop_v2\living_doc_editor\..\v4uploads\documents_filesystem/2/2__Q1_V1_60edc6a5db7e8_963370_1626195621.docx\\
+getStoragePath result: C:\Bitnami\wampstack-7.2.11-1\apache2\htdocs\brokerage\brokerage_dragdrop_v2\living_doc_editor\..\v4uploads\documents_filesystem/2/2__Q1_V1_60edc6a5db7e8_963370_1626195621.docx\\
+getHistoryDir: C:\Bitnami\wampstack-7.2.11-1\apache2\htdocs\brokerage\brokerage_dragdrop_v2\living_doc_editor\..\v4uploads\documents_filesystem/2/2__Q1_V1_60edc6a5db7e8_963370_1626195621.docx\\
+directory: C:\Bitnami\wampstack-7.2.11-1\apache2\htdocs\brokerage\brokerage_dragdrop_v2\living_doc_editor\..\v4uploads\documents_filesystem/2/2__Q1_V1_60edc6a5db7e8_963370_1626195621.docx\\-hist
+getVirtualPath virtPath: CICD_STORAGE_URL/brokerage/brokerage_dragdrop_v2/living_doc_editor/../v4uploads/documents_filesystem/2/
+getVirtualPath virtPath: http://localhost/../v4uploads/documents_filesystem/2/
+getVirtualPath virtPath: http://localhost/../v4uploads/documents_filesystem/2/
+getStoragePath result: C:\Bitnami\wampstack-7.2.11-1\apache2\htdocs\brokerage\brokerage_dragdrop_v2\living_doc_editor\..\v4uploads\documents_filesystem/2/2_Risk_Evaluation_Q1_V1_60efcf8a20fcb_589680_1626328970.docx\\
+getStoragePath result: C:\Bitnami\wampstack-7.2.11-1\apache2\htdocs\brokerage\brokerage_dragdrop_v2\living_doc_editor\..\v4uploads\documents_filesystem/2/2_Risk_Evaluation_Q1_V1_60efcf8a20fcb_589680_1626328970.docx\\
+getStoragePath result: C:\Bitnami\wampstack-7.2.11-1\apache2\htdocs\brokerage\brokerage_dragdrop_v2\living_doc_editor\..\v4uploads\documents_filesystem/2/2_Risk_Evaluation_Q1_V1_60efcf8a20fcb_589680_1626328970.docx\\
+getHistoryDir: C:\Bitnami\wampstack-7.2.11-1\apache2\htdocs\brokerage\brokerage_dragdrop_v2\living_doc_editor\..\v4uploads\documents_filesystem/2/2_Risk_Evaluation_Q1_V1_60efcf8a20fcb_589680_1626328970.docx\\
+directory: C:\Bitnami\wampstack-7.2.11-1\apache2\htdocs\brokerage\brokerage_dragdrop_v2\living_doc_editor\..\v4uploads\documents_filesystem/2/2_Risk_Evaluation_Q1_V1_60efcf8a20fcb_589680_1626328970.docx\\-hist
+getVirtualPath virtPath: CICD_STORAGE_URL/brokerage/brokerage_dragdrop_v2/living_doc_editor/../v4uploads/documents_filesystem/2/
+getVirtualPath virtPath: http://localhost/../v4uploads/documents_filesystem/2/
+getVirtualPath virtPath: http://localhost/../v4uploads/documents_filesystem/2/
+getStoragePath result: C:\Bitnami\wampstack-7.2.11-1\apache2\htdocs\brokerage\brokerage_dragdrop_v2\living_doc_editor\..\v4uploads\documents_filesystem/2/2_Risk_Evaluation_Q1_V2_60f01246e0d11_500155_1626346054.docx\\
+getStoragePath result: C:\Bitnami\wampstack-7.2.11-1\apache2\htdocs\brokerage\brokerage_dragdrop_v2\living_doc_editor\..\v4uploads\documents_filesystem/2/2_Risk_Evaluation_Q1_V2_60f01246e0d11_500155_1626346054.docx\\
+getStoragePath result: C:\Bitnami\wampstack-7.2.11-1\apache2\htdocs\brokerage\brokerage_dragdrop_v2\living_doc_editor\..\v4uploads\documents_filesystem/2/2_Risk_Evaluation_Q1_V2_60f01246e0d11_500155_1626346054.docx\\
+getHistoryDir: C:\Bitnami\wampstack-7.2.11-1\apache2\htdocs\brokerage\brokerage_dragdrop_v2\living_doc_editor\..\v4uploads\documents_filesystem/2/2_Risk_Evaluation_Q1_V2_60f01246e0d11_500155_1626346054.docx\\
+directory: C:\Bitnami\wampstack-7.2.11-1\apache2\htdocs\brokerage\brokerage_dragdrop_v2\living_doc_editor\..\v4uploads\documents_filesystem/2/2_Risk_Evaluation_Q1_V2_60f01246e0d11_500155_1626346054.docx\\-hist
+getVirtualPath virtPath: CICD_STORAGE_URL/brokerage/brokerage_dragdrop_v2/living_doc_editor/../v4uploads/documents_filesystem/2/
+getVirtualPath virtPath: http://localhost/../v4uploads/documents_filesystem/2/
+getVirtualPath virtPath: http://localhost/../v4uploads/documents_filesystem/2/
+getStoragePath result: C:\Bitnami\wampstack-7.2.11-1\apache2\htdocs\brokerage\brokerage_dragdrop_v2\living_doc_editor\..\v4uploads\documents_filesystem/2/2_Risk_Evaluation_Q1_V3_60f012af79fe9_726965_1626346159.docx\\
+getStoragePath result: C:\Bitnami\wampstack-7.2.11-1\apache2\htdocs\brokerage\brokerage_dragdrop_v2\living_doc_editor\..\v4uploads\documents_filesystem/2/2_Risk_Evaluation_Q1_V3_60f012af79fe9_726965_1626346159.docx\\
+getStoragePath result: C:\Bitnami\wampstack-7.2.11-1\apache2\htdocs\brokerage\brokerage_dragdrop_v2\living_doc_editor\..\v4uploads\documents_filesystem/2/2_Risk_Evaluation_Q1_V3_60f012af79fe9_726965_1626346159.docx\\
+getHistoryDir: C:\Bitnami\wampstack-7.2.11-1\apache2\htdocs\brokerage\brokerage_dragdrop_v2\living_doc_editor\..\v4uploads\documents_filesystem/2/2_Risk_Evaluation_Q1_V3_60f012af79fe9_726965_1626346159.docx\\
+directory: C:\Bitnami\wampstack-7.2.11-1\apache2\htdocs\brokerage\brokerage_dragdrop_v2\living_doc_editor\..\v4uploads\documents_filesystem/2/2_Risk_Evaluation_Q1_V3_60f012af79fe9_726965_1626346159.docx\\-hist

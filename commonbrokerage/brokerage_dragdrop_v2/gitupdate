@@ -1,0 +1,66 @@
+#!/usr/bin/python3
+
+### Configuration section
+HTTP_DOCROOT='/var/www/html'
+SSH_KEY_FILE='/root/.ssh/id_rsa.pub'
+GITBRANCH='UATServer'
+SRVUID='www-data'
+SRVGID='www-data'
+
+GITURI={'brokerage':'git@gitlab.com:tipl/dev/sedona/frontend/brokerage.git',
+        'clrm': 'git@gitlab.com:tipl/dev/sedona/backend/clrm.git',
+        'crm':'git@gitlab.com:tipl/dev/sedona/backend/crm.git',
+        'drag_email':'git@gitlab.com:tipl/dev/sedona/backend/drag_email.git',
+        'emailsubmissions':'git@gitlab.com:tipl/dev/sedona/old/emailsubmissions.git',
+        'forms':'git@gitlab.com:tipl/dev/sedona/backend/forms.git',
+        'ga_workbench':'git@gitlab.com:tipl/dev/sedona/old/ga_workbench.git',
+        'im':'git@gitlab.com:tipl/dev/sedona/frontend/contract.git',
+        'pgia':'git@gitlab.com:tipl/dev/sedona/old/pgia.git',
+        'wbui':'git@gitlab.com:tipl/dev/sedona/old/wbui.git',
+        'util':'git@gitlab.com:tipl/dev/sedona/util.git'
+        }
+
+### Configuration ends here.
+### Don't edit below this line
+
+import os
+import pwd
+import git
+
+if os.getuid() != 0:
+    print('\nTo run the script you need to have root access!!\n')
+    exit(0)
+
+CUID=pwd.getpwnam(SRVUID).pw_uid
+CGID=pwd.getpwnam(SRVGID).pw_gid
+
+dir_path = os.getcwd()
+os.chdir(HTTP_DOCROOT)
+#git_ssh_identity_file = os.path.expanduser('~/.ssh/id_rsa')
+git_ssh_cmd = 'ssh -i %s' % SSH_KEY_FILE
+
+### custom funtion
+def _chown(dirkey):
+    os.chown(dirkey, CUID, CGID)
+    for root, dirs, files in os.walk(dirkey):  
+        for momo in dirs:  
+            os.chown(os.path.join(root, momo), CUID, CGID)
+        for momo in files:
+            os.chown(os.path.join(root, momo), CUID, CGID)
+
+### custom function ends
+
+with git.Git().custom_environment(GIT_SSH_COMMAND=git_ssh_cmd):
+    for key in GITURI.keys():
+        if os.path.isdir(key):
+            print('Local repository found for ', key, '\n\tRunning git pull ...\n')
+            g = git.Git(key)
+            g.pull('origin', GITBRANCH)
+            _chown(key)
+        else:
+            print('Local repository not found for ', key, '\n\t\aRunning git clone ...\n')
+            git.Repo.clone_from(GITURI.get(key), key, branch=GITBRANCH,)
+            _chown(key)
+
+os.chdir(dir_path)
+
