@@ -42,7 +42,7 @@ stages:
       workingDirectory: $(rootFolder)
       displayName: 'Use PHP version $(phpVersion)'
 
-    - script: composer install --no-interaction --working-dir=commonbrokerage/brokerage.be
+    - script: composer install --no-interaction --working-dir=commonbrokerage/brokerage.be/composer.json
       workingDirectory: $(rootFolder)
       displayName: 'Composer install'
 
